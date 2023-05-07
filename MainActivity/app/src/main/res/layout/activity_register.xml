@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profil"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@color/teal_700"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/person" />
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/ad"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editext_background"
+        android:hint="Ad"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+
+    <EditText
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/soyad"
+        android:background="@drawable/editext_background"
+        android:hint="Soyad"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/girisYili"
+        android:background="@drawable/editext_background"
+        android:hint="Giriş Yılı"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/mezunYili"
+        android:background="@drawable/editext_background"
+        android:hint="Mezun Yılı"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/mail"
+        android:background="@drawable/editext_background"
+        android:hint="E-posta"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/sifre"
+        android:background="@drawable/editext_background"
+        android:hint="Şifre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/signup"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="KAYIT OL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/goToLoginActivity"
+        android:textColor="@color/teal_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Giriş Yap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

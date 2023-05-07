@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="50dp"
+android:orientation="vertical"
+tools:context=".DuyuruActivity">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:text="Duyurular"
+    android:textAllCaps="false"
+    android:id="@+id/duyurular"
+    android:backgroundTint="@color/teal_700"
+    android:textSize="28dp"
+    android:layout_height="100dp" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:text="Paylaşımlar"
+    android:id="@+id/paylasimlar"
+    android:backgroundTint="@color/teal_700"
+    android:textSize="28dp"
+    android:textAllCaps="false"
+    android:layout_height="100dp" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:id="@+id/profilDuzenle"
+    android:text="Profil Düzenle"
+    android:textAllCaps="false"
+    android:backgroundTint="@color/teal_700"
+    android:textSize="28dp"
+    android:layout_height="100dp" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:textAllCaps="false"
+    android:id="@+id/mezunAra"
+    android:text="Mezun Ara"
+    android:backgroundTint="@color/teal_700"
+    android:textSize="28dp"
+    android:layout_height="100dp" />
+
+</LinearLayout>
